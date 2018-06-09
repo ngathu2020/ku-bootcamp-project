@@ -1,0 +1,61 @@
+
+Best Estimator Parameters
+---------------------------
+n_estimators: 1000
+max_depth: 4
+Learning Rate: 0.1
+min_samples_leaf: 3
+max_features: 0.1
+Train R-squared: 1.00
+
+
+Top 8 important features
+1. size rank (0.423154)
+2. bedroom (0.127563)
+3. Nielson household rank (0.087096)
+4. Student Teacher Ratio (0.053069)
+5. zip code (0.051281)
+6. demand score (0.047803)
+7. Graduation Rate (0.044177)
+8. hotness rank (0.038073)
+Mean Feature Importance 0.071429
+
+Final Estimator Parameters
+---------------------------
+n_estimators: 1000
+max_depth: 4
+Learning Rate: 0.1
+min_samples_leaf: 9
+max_features: 0.5
+
+Final Train R-squared: 1.00
+Final Test R-squared: 0.79
+
+Price Prediction: 145457.80
+
+
+Top 8 important features
+1. size rank (0.423154)
+2. bedroom (0.127563)
+3. Nielson household rank (0.087096)
+4. Student Teacher Ratio (0.053069)
+5. zip code (0.051281)
+6. demand score (0.047803)
+7. Graduation Rate (0.044177)
+8. hotness rank (0.038073)
+Mean Feature Importance 0.071429
+
+Final Estimator Parameters
+---------------------------
+n_estimators: 1000
+max_depth: 4
+Learning Rate: 0.1
+min_samples_leaf: 9
+max_features: 0.5
+accuracy: 0.7923
+
+Final Train R-squared: 1.00
+Final Test R-squared: 0.79
+
+Price Prediction: 145457.80
+

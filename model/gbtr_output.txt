@@ -1,0 +1,69 @@
+Best Estimator Parameters
+---------------------------
+n_estimators: 100
+max_depth: 4
+Learning Rate: 0.1
+min_samples_leaf: 5
+max_features: 0.1
+Train R-squared: 0.88
+
+
+Top 8 important features
+1. size rank (0.384213)
+2. Nielson household rank (0.158404)
+3. zip code (0.107409)
+4. demand score (0.089059)
+5. hotness rank (0.080483)
+6. bedroom (0.071269)
+7. supply score (0.061122)
+8. median days on market (0.048041)
+Mean Feature Importance 0.125000
+
+Final Estimator Parameters
+---------------------------
+n_estimators: 1000
+max_depth: 4
+Learning Rate: 0.1
+min_samples_leaf: 9
+max_features: 0.5
+
+Final Train R-squared: 1.00
+Final Test R-squared: 0.69
+
+
+Top 8 important features
+
+Best Estimator Parameters
+---------------------------
+n_estimators: 100
+max_depth: 4
+Learning Rate: 0.1
+min_samples_leaf: 5
+max_features: 0.1
+Train R-squared: 0.88
+
+
+Top 8 important features
+1. size rank (0.384213)
+2. Nielson household rank (0.158404)
+3. zip code (0.107409)
+4. demand score (0.089059)
+5. hotness rank (0.080483)
+6. bedroom (0.071269)
+7. supply score (0.061122)
+8. median days on market (0.048041)
+Mean Feature Importance 0.125000
+
+Final Estimator Parameters
+---------------------------
+n_estimators: 1000
+max_depth: 4
+Learning Rate: 0.1
+min_samples_leaf: 9
+max_features: 0.5
+accuracy: 0.6892
+Final Train R-squared: 1.00
+Final Test R-squared: 0.69
+
+Price Prediction: 151543.76
+

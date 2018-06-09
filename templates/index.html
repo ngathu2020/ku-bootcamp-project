@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>Kansas City Metropolitan Explorer</title> 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <script src="https://unpkg.com/simple-statistics@5.0.0/dist/simple-statistics.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-default">
+      <div class="first-nav">
+        <ul class="nav navbar-nav">
+          <li class="navbar-head"><a class="selected-city" href="/templates/index.html">Kansas City Metropolitan Explorer</a></li>
+        </ul>
+      </div>
+      <div class="second-nav">
+        <ul class="nav navbar-nav">
+          <li><a class="page-link" href="/templates/page-home.html#page-content">&#160;&#160;&#160;</a></li>
+
+          <li><a class="page-link" href="/templates/page-school-map-6.html#page-content">School Map</a></li>
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Local Housing<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="page-link" href="/templates/page-housing-local-school-based-forecast-14.html#page-content">School-based Forecast</a></li>
+              <li><a class="page-link" href="/templates/page-housing-local-city-based-forecast-8.html#page-content">City-based Forecast</a></li>
+              <li><a class="page-link" href="/templates/page-housing-local-price-prediction-30.html#page-content">Price Prediction with No School Data</a></li>
+              <li><a class="page-link" href="/templates/page-housing-local-price-prediction-school-30.html#page-content">Price Prediction with School Data</a></li>
+              <li><a class="page-link" href="/templates/page-housing-local-for-sale-1.html#page-content">Kansas City Homes For Sale</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">National Housing<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="page-link" href="/templates/page-housing-national-culture-healthcare-41.html#page-content">Culture and Healthcare</a></li>
+              <li><a class="page-link" href="/templates/page-housing-national-price-crime-41.html#page-content">Housing Price and Crime</a></li>
+              <li><a class="page-link" href="/templates/page-housing-national-median-price-41.html#page-content">Median Price</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Crime<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="page-link" href="/templates/page-crime-jc-8.html#page-content">Johnson County Crime Map</a></li>
+              <li><a class="page-link" href="/templates/page-crime-kcmo-8.html#page-content">KCMO Crime Map</a></li>
+              <li><a class="page-link" href="/templates/page-crime-by-type-8.html#page-content">KC Metro Crime By Type</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- content box -->
+    <div id="page-content" class="box">
+      <div class="row">
+          <div class="col-md-12">      
+              <img id="home" src="/image/unionstation.jpg" alt="Union Station of Kansas City">
+          </div>
+      </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            // load page in the page-content div when clicked
+            $(".page-link").click(function(e) {
+                e.preventDefault();
+                $("#page-content").load($(this).attr('href'));
+            });
+        });
+
+    </script>
+
+</body>
+
+
+
+
+  

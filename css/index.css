@@ -1,0 +1,65 @@
+body {
+  background-color: white !important;
+  margin: 5px !important;
+  padding: 5px !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-self: center;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+  padding: 0px;
+  background-color: white !important;
+}   
+
+.navbar-head a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white !important;
+  background-color: rgb(37, 107, 172) !important;    
+  padding-left: 0px;
+  white-space: nowrap; 
+  width: fit-content; 
+  overflow: visible;
+  text-overflow: clip;     
+  text-align: center;
+} 
+
+.box {
+  width: 95%;
+  margin: 5px !important;
+  text-align: center;
+}
+
+.first-nav {
+  float: left !important;
+  height: 30px;
+}
+
+.second-nav {
+  color: grey !important;
+  float: left !important;
+  height: 30px;
+}
+
+.dropdown-menu a {
+  color: grey !important;
+}
+
+.headline {
+  text-align: center;
+}
+
+#home {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 945px;
+  height: 440px;
+}
+
+#forecast {
+  width: 90%;
+  height: auto;
+  align-self: center;
+}

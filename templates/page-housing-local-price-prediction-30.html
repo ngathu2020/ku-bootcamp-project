@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gradient Boosting: Home Price Prediction</title> 
+
+</head>
+
+<body>
+    <!-- content box -->
+    <div id="page-content" class="box">
+
+        <div class="row">
+            <div class="col-md-12">
+                <article> 
+                    <b>Data Sources</b> <br>
+                    Zillow https://www.zillow.com/research/data/ <br>
+                    Realtor https://www.realtor.com/research/data/ <br>
+                </article>     
+            </div>
+        </div>
+
+        <br>
+        
+                
+        <div class="row">
+            <div class="col-md-12">
+        
+                <div class="headline">
+                    <h4>Gradient Boosting with Learning Curves: Home Price Prediction</h4>
+                </div>
+
+            </div>
+        </div>    
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <div class="headline">
+                    <h5 style="font-weight: bold;">Original Model</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <img id="forecast" src="/image/gbrt_learning_curves_orig.png" alt="Gradient Boosting with Learning Curves: Original Model">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <div class="headline">
+                    <h5 style="font-weight: bold;">Minimum Sample Leaf</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <img id="forecast" src="/image/gbrt_learning_curves_min_samples_leaf.png" alt="Gradient Boosting with Learning Curves: Minimum Sample Leaf">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <div class="headline">
+                    <h5 style="font-weight: bold;">Max Features</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <img id="forecast" src="/image/gbrt_learning_curves_max_features.png" alt="Gradient Boosting with Learning Curves: Max Features">
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <div class="headline">
+                    <h5 style="font-weight: bold;">1,000 Trees at 0.1 Learning Rate</h5>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-md-12">      
+            <img id="forecast" width="70%" src="/image/gbrt_learning_curves_1000_trees_rate_1.png" alt="Gradient Boosting with Learning Curves: 1,000 Trees at Learning Rate 0.1">
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <div class="headline">
+                    <h5 style="font-weight: bold;">Feature Importances</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">      
+            <img id="forecast" height="100%" src="/image/gbrt_learning_curves_feature_importances.png" alt="Gradient Boosting with Learning Curves: Feature Importances">
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">      
+                <div class="headline">
+                    <h5 style="font-weight: bold;">Gradient Boosted Regression Tree Model Output</h5>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-md-12">      
+            <img id="forecast" src="/image/Gradient Boosting Output.png" alt="With no school data vs with school data">
+        </div>
+            
+    </div>
+
+</body>
+</html>

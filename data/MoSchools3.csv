@@ -1,0 +1,18 @@
+district,county ,Street Address,city,ZIP,Locale,Student Teacher Ratio,schooltype,Graduation Rate,Proficiency Reading,Advanced Proficiency Reading,Pass Reading,Proficiency Math,Advanced Proficiency Math,Pass math,Proficiency Science,Adanced Proficiency Science,Pass Science
+BLUE SPRINGS R-IV,Jackson County,1801 NW VESPER,BLUE SPRINGS,64015,Suburb: Large,15.9,Regular School District,94.06,43.5,34,77.5,32,37.2,69.2,39.8,32.1,71.9
+CENTER 58,Jackson County,8701 HOLMES RD,KANSAS CITY,64131,City: Large,12.3,Regular School District,91.38,38,13.2,51.2,25.6,15.7,41.3,28.7,8.6,37.3
+EXCELSIOR SPRINGS 40,Clay County,300 W BROADWAY,EXCELSIOR SPRINGS,64024,Town: Fringe,13.4,Regular School District,93.3,40.6,15,55.6,28.9,13,41.9,38,10.1,48.1
+FORT OSAGE R-I,Jackson County,2101 N TWYMAN RD,INDEPENDENCE,64058,Rural: Fringe,15,Regular School District,95.39,42.4,17.3,59.7,26.9,15.6,42.5,35.7,18.1,53.8
+GRAIN VALLEY R-V,Jackson County,PO BOX 304,GRAIN VALLEY,64029,Suburb: Large,14.4,Regular School District,96,50,20.4,70.4,31.6,24.5,56.1,41.2,28.8,70
+GRANDVIEW C-4,Jackson County,13015 10TH ST,GRANDVIEW,64030,Suburb: Large,15.6,Regular School District,85,41.4,11.8,53.2,25.5,8.4,33.9,27.4,9,36.4
+HICKMAN MILLS C-1,Jackson County,9000 OLD SANTA FE RD,KANSAS CITY,64138,City: Large,13.3,Regular School District,82.74,27.3,5.5,32.8,18.7,6.6,25.3,18.5,3.9,22.4
+INDEPENDENCE 30,Jackson County,201 NORTH FOREST AVENUE,INDEPENDENCE,64050,Suburb: Large,16.4,Regular School District,95.98,39,14.4,53.4,25,13.1,38.1,40.2,15.3,55.5
+KANSAS CITY 33,Jackson County,2901 Troost Avenue,KANSAS CITY,64109,City: Large,14.4,Regular School District,72.19,29.1,6.8,35.9,16.1,7.4,23.5,19.1,4.5,23.6
+KEARNEY R-I,Clay County,1002 S JEFFERSON,KEARNEY,64060,Town: Fringe,14.7,Regular School District,96.57,48.2,31.1,79.3,37.2,28.4,65.6,42.8,29.4,72.2
+LEE'S SUMMIT R-VII,Jackson County,301 NE TUDOR RD,LEE'S SUMMIT,64086,Suburb: Small,15.1,Regular School District,95.09,46.8,26.2,73,35.1,24.3,59.4,43.9,22.8,66.7
+LIBERTY 53,Clay County,8 VICTORY LANE,LIBERTY,64068,Suburb: Large,15.8,Regular School District,94.28,43.3,31.8,75.1,32.6,29.6,62.2,41.3,23,64.3
+LONE JACK C-6,Jackson County,313 S BYNUM ROAD,LONE JACK,64070,Rural: Fringe,12.8,Regular School District,97.78,46.1,21.2,67.3,32.1,15.6,47.7,38.6,13.1,51.7
+NORTH KANSAS CITY 74,Clay County,2000 NE 46TH ST,KANSAS CITY,64116,City: Large,15.8,Regular School District,97.5,43.1,26.3,69.4,29.6,31,60.6,39.1,25,64.1
+OAK GROVE R-VI,Jackson County,601 SE 12TH STREET,OAK GROVE,64075,Suburb: Large,14.5,Regular School District,95.6,47.6,24.2,71.8,33.4,17.4,50.8,43,13.4,56.4
+RAYTOWN C-2,Jackson County,6608 RAYTOWN RD,RAYTOWN,64133,Suburb: Large,14.8,Regular School District,83.09,38.3,12.4,50.7,20.4,7,27.4,29.5,11.5,41
+SMITHVILLE R-II,Clay County,655 S COMMERCIAL,SMITHVILLE,64089,Suburb: Large,15.9,Regular School District,94.92,45.7,23,68.7,33.3,21.3,54.6,45.7,18,63.7
